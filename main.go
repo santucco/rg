@@ -12,7 +12,7 @@ import (
 
 var Usage = func() {
 	fmt.Fprintf(os.Stderr, "Report generator\n")
-	fmt.Fprintf(os.Stderr, "Copyright (C) Alexander Sychev, 2010\n")
+	fmt.Fprintf(os.Stderr, "Copyright (C) Alexander Sychev, 2010, 2012\n")
 	fmt.Fprintf(os.Stderr, "Usage of %s: -o <outfile> <filename1> [filenameN]\n", os.Args[0])
 	fmt.Fprintf(os.Stderr, "\t-o <outfile> - output file for storing state\n")
 	fmt.Fprintf(os.Stderr, "\t<filenameN> - input files\n")
